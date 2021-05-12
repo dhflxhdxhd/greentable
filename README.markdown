@@ -1,5 +1,6 @@
 # 캡스톤/웹 프로젝트/그린테이블
 
+<br>
 
 ## 간단 요약
 
@@ -24,6 +25,8 @@
 
 - MZ 세대를 중심으로 채식에 관심을 가지는 사람들이 채식 문화를 보다 쉽게 경험할 수 있는 환경을 제공할 수 있을 것이다.
 - 비거니즘에 대한 인식이 확대되어 비거니즘 전용 장소의 정보를 제공하지 않은 환경이 형성될 수 있다.
+
+<br>
 
 ## 기능
 
@@ -56,6 +59,8 @@
     - **(장소 전체 데이터도 지도형식으로 제공하면 좋을 듯?싶다)**
 
 
+<br>
+
 ## 참고 사이트/ 프로그램
 
 ---
@@ -70,4 +75,4 @@
 
 [[kakao 지도 api]](https://apis.map.kakao.com/web/sample/basicMarker/)
 
-[[Django 데이터 변수를 javascript에 넘기기 feat. 카카오맵 API](https://moondol-ai.tistory.com/133)
+[[Django 데이터 변수를 javascript에 넘기기 feat. 카카오맵 API]](https://moondol-ai.tistory.com/133)
