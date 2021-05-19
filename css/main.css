@@ -3,6 +3,7 @@
     --text-color : #707070;
     --highlight-color : #FFC107;
     --line-color : #CFD9BA;
+    --theme-color : #106B56;
 }
 
 @font-face {
@@ -55,7 +56,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 300px;
 }
 
 /* title */
@@ -79,5 +80,212 @@ body {
     height: auto;
 }
 
-/* intro */
 
+
+/* intro */
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.intro_saying {
+    font-family: "GmarketSansMedium";
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+/* intro > 바로가기 btn */
+  .mv_to_startbtn{
+    width:200px;
+    height:70px;
+    border:2px solid var(--theme-color);
+    float:left;
+    text-align:center;
+    cursor:pointer;
+    position:relative;
+    box-sizing:border-box;
+    overflow:hidden;
+    margin-top: 20px;   
+  }
+  .mv_to_startbtn a{
+    font-family:"GmarketSansMedium";
+    font-size:40px;
+    color: var(--theme-color);
+    text-decoration:none;
+    line-height:70px;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+  .eff_mv{
+    width:200px;
+    height:70px;
+    top:-2px;
+    right:-190px;
+    background: var(--theme-color);
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+  }
+  .mv_to_startbtn:hover .eff_mv{
+    right:0;
+  }
+  .mv_to_startbtn:hover a{
+    color:#fff;
+  }
+  
+
+/* 비거니즘 설명 */
+.vegan_saying{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vegan_saying #line1 {
+    margin-top: 10%;
+    width: 30%;
+}
+
+.vegan_saying_wrapper{
+    width: 28%;
+}
+
+.vegan_meaning1 {
+    margin-top: 60px;
+}
+
+.vegan_meaning1 span{
+    font-family: 'GmarketSansMedium';
+    font-size: 38px;
+}
+
+.vegan_meaning1::first-letter{
+    color: var(--highlight-color);
+    font-size: 70px;
+}
+
+.vegan_meaning1 p{
+    font-size: 32px;
+}
+
+.division{  
+    text-align: center;
+}
+.division .vegan_division{
+    width: 90%;
+}
+
+.vegan_meaning2 {
+    font-size: 32px;
+}
+
+.vegan_saying #line2 {
+    margin-top: 50px;
+    width: 30%;
+}
+
+/* inputs */
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.inputs_start{
+    width:200px;
+    height:70px;
+    border:2px solid var(--theme-color);
+    float:left;
+    text-align:center;
+    cursor:pointer;
+    position:relative;
+    box-sizing:border-box;
+    overflow:hidden;
+    margin-top: 20px;   
+  }
+  .inputs_start a{
+    font-family:"GmarketSansMedium";
+    font-size:40px;
+    color: var(--theme-color);
+    text-decoration:none;
+    line-height:70px;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+  .eff_st{
+    width:200px;
+    height:70px;
+    top:-2px;
+    right:-190px;
+    background: var(--theme-color);
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+  }
+  .inputs_start:hover .eff_st{
+    right:0;
+  }
+  .inputs_start:hover a{
+    color:#fff;
+  }
+
+  .inputs_info{
+    width:200px;
+    height:70px;
+    border:2px solid var(--theme-color);
+    float:left;
+    text-align:center;
+    cursor:pointer;
+    position:relative;
+    box-sizing:border-box;
+    overflow:hidden;
+    margin-top: 20px;   
+  }
+  .inputs_info a{
+    font-family:"GmarketSansMedium";
+    font-size:40px;
+    color: var(--theme-color);
+    text-decoration:none;
+    line-height:70px;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+  .eff_info{
+    width:200px;
+    height:70px;
+    top:-2px;
+    right:-190px;
+    background: var(--theme-color);
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+  }
+  .inputs_info:hover .eff_info{
+    right:0;
+  }
+  .inputs_info:hover a{
+    color:#fff;
+  }
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.github img{
+    margin-right: 30px;
+}
+
+.blog img{
+    margin-left: 30px;
+}
