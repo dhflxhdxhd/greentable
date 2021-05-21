@@ -1,3 +1,11 @@
+:root {
+    --background-color : #F2F2EB;
+    --text-color : #707070;
+    --highlight-color : #FFC107;
+    --line-color : #CFD9BA;
+    --theme-color : #106B56;
+}
+
 @font-face {
     font-family: 'GmarketSansBold';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
@@ -17,6 +25,22 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Hana_handwriting';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_05@1.0/Hana_handwriting.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KyoboHand';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 
 html, body {
     width: 100%;
