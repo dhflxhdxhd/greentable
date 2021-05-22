@@ -25,7 +25,7 @@
 
 .title_name {
   font-family: 'Megrim', cursive;
-  font-size : 150px;
+  font-size : 10vw;
   color : var(--theme-color);
   font-weight: bolder;
 }
@@ -42,7 +42,7 @@
 .intro_saying {
     font-family: "GmarketSansMedium";
     margin-top: 90px;
-    font-size: 28px;
+    font-size: 2vw;
 }
 
 /* intro > 바로가기 btn */
@@ -60,7 +60,7 @@
   }
   .mv_to_startbtn a{
     font-family:"GmarketSansMedium";
-    font-size:20px;
+    font-size:2vw;
     color: var(--theme-color);
     text-decoration:none;
     line-height:40px;
@@ -237,4 +237,11 @@ footer {
 
 .blog img{
     margin-left: 30px;
+}
+
+
+
+@media (max-width: 1024px){
+  #contents {width: 100%;}
+  #wrapper {width: 100%;}
 }
