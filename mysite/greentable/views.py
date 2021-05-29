@@ -10,3 +10,7 @@ def index(request):
     }
     return render(request,'index.html',context=context)
 
+
+def result(request):
+
+    return render(request, 'index.html')
