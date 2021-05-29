@@ -37,7 +37,11 @@
                 <div class="js-qnaBox"></div>
                 <div class="js-answerBox"></div>
             </section>
-            <section id="result"></section>
+            <section id="result">
+                    {% for i in Places %}
+                    <p>{{i.name}}</p>
+                    {% endfor %}
+            </section>
         </div>
         <script src="/static/js/start.js"></script>
         <script src="/static/js/question.js"></script>
