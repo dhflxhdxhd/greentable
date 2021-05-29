@@ -1,8 +1,11 @@
 from django.contrib import admin
+from .models import Place
 
-# Register your models here.
-from .models import Question,Choice,Place
+from import_export.admin import ExportActionModelAdmin, ImportExportMixin, ImportMixin
 
-admin.site.register(Question)
-admin.site.register(Choice)
-admin.site.register(Place)
+
+class PlaceAdmin(ImportExportMixin,admin.ModelAdmin):
+    pass
+
+admin.site.register(Place,PlaceAdmin)
+

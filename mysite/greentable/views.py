@@ -1,7 +1,12 @@
 from django.shortcuts import render
-from django.http import HttpResponse
-
-
+from .models import Place
+# from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("언제까지 반복만...?")
+    Places = Place.objects.all()
+
+    context = {
+        'Places' : Places,
+    }
+    return render(request,'index.html',context=context)
+

@@ -16,11 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from greentable import views
-
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #URL과 뷰 함수를 매핑
-    # path('greentable/', views.index),
-    path('greentable/', include('greentable.urls')),
+    path('', include('greentable.urls')),
+
 ]
+
