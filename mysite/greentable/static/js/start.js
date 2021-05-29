@@ -6,6 +6,8 @@ var qnaBox = document.querySelector(".js-qnaBox");
 const endPoint = 4;
 const select = [];
 
+result.style.display = "none";
+
 function setResult(){
 
 }
