@@ -21,7 +21,7 @@ function goResult(){
     qna.style.display = "none";
     result.style.display = "block";
 
-    setResult();
+
 }
 
 function addAnswer(answerText, qId, Id){

@@ -6,21 +6,23 @@ var qnaBox = document.querySelector(".js-qnaBox");
 const endPoint = 4;
 const select = [];
 
+result.style.display = "none";
+
 function setResult(){
 
 }
 
 function calResult(){
-    
+
 }
+
 
 function goResult(){
     qna.style.display = "none";
     result.style.display = "block";
-    
-    setResult();
-}
 
+
+}
 
 function addAnswer(answerText, qId, Id){
     var answer = document.querySelector(".js-answerBox");
@@ -33,9 +35,8 @@ function addAnswer(answerText, qId, Id){
     answerBtn.addEventListener("click",function(){
         var children = document.querySelectorAll(".answerList");
 
-        
-        select[qId] = Id;  // 결과 페이지 : 선택한 번호. 
-        // console.log(select);
+        select[qId] = Id;  // 결과 페이지 : 선택한 번호.
+        console.log(select);
 
         for(let i=0; i<children.length; i++){
             children[i].disabled = true;
@@ -47,7 +48,7 @@ function addAnswer(answerText, qId, Id){
 
 function goNext(qId) {
 
-    if(qId === endPoint ){
+    if(qId == endPoint ){
         goResult();
         return;
     }
