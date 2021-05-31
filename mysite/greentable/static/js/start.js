@@ -3,13 +3,19 @@ const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
 const start_button = document.querySelector(".js-start");
 var qnaBox = document.querySelector(".js-qnaBox");
+const rexplain = document.querySelector(".rexplain");
 const endPoint = 4;
 const select = [];
 
 result.style.display = "none";
 
 function setResult(){
+    let places = {{Places}}
+//     {% for i in Places%}
+//     <p>{{i.name}}을 방분하는 것을 추천합니다.</p>
+//     {% endfor %}
 
+      rexplain.innerHTML = "<p>" + places + "</p>"
 }
 
 function calResult(){
