@@ -1,54 +1,53 @@
 
 {% load static %}
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="{% static 'css/default.css' %}" type="text/css">
-        <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css">
-        <title>greentable</title>
-    </head>
-    <body>
-        <div class="container">
-            <section id="main">
-                    <div class="wrapper">
-                        <div class="title">
-                            <div class="title_name">
-                                GreenTable
-                            </div>
-                        </div>
-                        <div class="intro">
-                            <div class="intro_saying">내가 선택한 채식 장소는?</div>
-                            <div class="mv_to_startbtn">
-                                <div class="eff_mv"></div>
-                                <button type="button" class="js-start">
-                                    시작하기
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-            </section>
-            <section id="qna">
-                <div class="js-qnaBox"></div>
-                <div class="js-answerBox"></div>
-            </section>
-            <section id="result">
-                 <div class="wrapper">
-                        <div class="rtitle">당신의 선택은?</div>
-                        <div class="resultInfo">
-                            <div class="rmap">지도는 여기.</div>
-                            <div class="rexplain">
-
-                            </div>
-                        </div>
-                 </div>
-
-
-            </section>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/default.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css">
+    <title>greentable</title>
+</head>
+<body>
+<div class="container">
+    <section id="main">
+        <div class="wrapper">
+            <div class="title">
+                <div class="title_name">
+                    GreenTable
+                </div>
+            </div>
+            <div class="intro">
+                <div class="intro_saying">내가 선택한 채식 장소는?
+                </div>
+                <div class="mv_to_startbtn">
+                    <div class="eff_mv"></div>
+                    <button type="button" class="js-start">
+                        시작하기
+                    </button>
+                </div>
+            </div>
         </div>
-        <script src="/static/js/start.js"></script>
-        <script src="/static/js/question.js"></script>
+    </section>
+    <section id="qna">
+        <div class="js-qnaBox"></div>
+        <div class="js-answerBox"></div>
+    </section>
 
-    </body>
+    <section id="result">
+        <div class="wrapper">
+            <div class="rtitle">당신의 선택은?</div>
+            <div class="resultInfo">
+                <div class="rmap">지도는 여기.</div>
+                <div class="rexplain"></div>
+            </div>
+        </div>
+    </section>
+
+</div>
+<script src="/static/js/start.js"></script>
+<script src="/static/js/question.js"></script>
+
+</body>
 </html>

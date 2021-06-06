@@ -7,7 +7,7 @@ division : 식당 0 카페 1 베이커리 2
 country : 한국 0 일본,중국 1 인도 2 남미 3 중동 4 서양 5
 call 
 locate
-break
+day_break
 time
 menu
 etc
@@ -26,4 +26,22 @@ class Place(models.Model):
     etc = models.CharField(max_length=50, blank=True, null=True)
 
     def __str__(self):
-        return f'{self.id}.{self.name}'
+        return f'{self.name}'
+
+class Question(models.Model):
+    number = models.IntegerField(unique=True)
+    content = models.CharField(max_length=100)
+
+    def __str__(self):
+        return f'{self.number}.{self.content}'
+
+class Choice(models.Model):
+    content = models.CharField(max_length=100)
+    question = models.ForeignKey(to='greentable.Question', on_delete=models.CASCADE)
+    type = models.IntegerField(null = True)
+    # place = models.ForeignKey(to='greentable.Place',
+    #                           on_delete=models.CASCADE,
+    #                           null=True)
+
+    def __str__(self):
+        return f'{self.content}'

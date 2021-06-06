@@ -10,12 +10,7 @@ const select = [];
 result.style.display = "none";
 
 function setResult(){
-    let places = {{Places}}
-//     {% for i in Places%}
-//     <p>{{i.name}}을 방분하는 것을 추천합니다.</p>
-//     {% endfor %}
 
-      rexplain.innerHTML = "<p>" + places + "</p>"
 }
 
 function calResult(){
@@ -28,6 +23,7 @@ function goResult(){
     result.style.display = "block";
 
 
+    setResult();
 }
 
 function addAnswer(answerText, qId, Id){
@@ -66,8 +62,10 @@ function goNext(qId) {
 }
 
 function begin() {
+  console.log("start");
     main.style.display = "none";
-    qna.style.display = "block"
+    qna.style.display = "block";
+
 
     let qId = 0;
     goNext(qId);

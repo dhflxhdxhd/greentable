@@ -1,0 +1,1148 @@
+[
+{
+    "model": "greentable.place",
+    "pk": 1,
+    "fields": {
+        "name": "고추냉이 식당",
+        "explain": 0,
+        "division": 0,
+        "country": 2,
+        "call": "064-748-4145",
+        "locate": "제주 제주시 애월읍 광령5길 8",
+        "day_break": "인스타 공지",
+        "time": "월-금요일: 11:00 - 18:00/토-일요일:12:00-15:00 ",
+        "menu": "오리지널카레",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 2,
+    "fields": {
+        "name": "그날의 조각",
+        "explain": 1,
+        "division": 1,
+        "country": null,
+        "call": "0507-1429-1037",
+        "locate": "제주 제주시 노형1길 39 1층",
+        "day_break": "인스타 공지",
+        "time": "12:00 ~ 19:00",
+        "menu": "비건 밀크",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 3,
+    "fields": {
+        "name": "그럼피 베이비",
+        "explain": 0,
+        "division": 1,
+        "country": null,
+        "call": "064-726-0466",
+        "locate": "제주 서귀포시 안덕면 녹차분재로 65 분홍색 건물",
+        "day_break": "화요일",
+        "time": "월,수-금요일:10:00 - 18:00/토요일 : 8:00 - 18:00/일요일 : 8:00 - 15:00",
+        "menu": "더블베이컨치즈버거",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 4,
+    "fields": {
+        "name": "그루브",
+        "explain": 0,
+        "division": 1,
+        "country": null,
+        "call": "064-796-3336",
+        "locate": "제주 제주시 한림읍 한림로 333",
+        "day_break": "X",
+        "time": "화-목요일 : 10:30 - 18:00/금 - 월요일 :10:00 - 21:00",
+        "menu": "그루브시그니처크로독",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 5,
+    "fields": {
+        "name": "깃든",
+        "explain": 0,
+        "division": 0,
+        "country": 2,
+        "call": "010-5419-8789",
+        "locate": "제주 제주시 구좌읍 해맞이해안로 990-2",
+        "day_break": "X",
+        "time": "09:30 - 20:30",
+        "menu": "인도커리",
+        "etc": "카페도 가능"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 6,
+    "fields": {
+        "name": "낭뜰에쉼팡",
+        "explain": 0,
+        "division": 0,
+        "country": 0,
+        "call": "064-784-9292",
+        "locate": "제주 제주시 조천읍 남조로 2343",
+        "day_break": "X",
+        "time": "09:00 - 20:00 ",
+        "menu": "낭뜰에정식",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 7,
+    "fields": {
+        "name": "뉴자연으로",
+        "explain": 1,
+        "division": 0,
+        "country": 0,
+        "call": "064-782-2831",
+        "locate": "제주 서귀포시 성산읍 중산간동로 4217",
+        "day_break": "토요일 휴무",
+        "time": "11:00 - 19:00 /금요일 11:00-15:00",
+        "menu": "신선밥",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 8,
+    "fields": {
+        "name": "다담",
+        "explain": 0,
+        "division": 0,
+        "country": 0,
+        "call": "064-753-2843",
+        "locate": "제주 제주시 서광로2길 11-18",
+        "day_break": "X",
+        "time": "11:30 - 21:00",
+        "menu": "연잎정식",
+        "etc": "BreakTime : 15:00-17:00"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 9,
+    "fields": {
+        "name": "다소니",
+        "explain": 0,
+        "division": 0,
+        "country": 0,
+        "call": "064-752-5533",
+        "locate": "제주 제주시 오남로6길 24",
+        "day_break": "일요일 휴무",
+        "time": "11:00- 20:00",
+        "menu": "연잎밥",
+        "etc": "사찰음식/동물성은 빼달라고 미리 이야기해야 함"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 10,
+    "fields": {
+        "name": "담아래 ",
+        "explain": 0,
+        "division": 0,
+        "country": 0,
+        "call": "0507-1310-5917",
+        "locate": "제주 제주시 수목원길 23 1층",
+        "day_break": "일요일 휴무",
+        "time": "11:00-20:00",
+        "menu": "돌솥밥",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 11,
+    "fields": {
+        "name": "덕성원",
+        "explain": 0,
+        "division": 0,
+        "country": 1,
+        "call": "064-762-2402",
+        "locate": "제주 서귀포시 태평로401번길 4 덕성원",
+        "day_break": "화요일 휴무",
+        "time": "11:00 - 21:00",
+        "menu": "짜장면, 짬뽕",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 12,
+    "fields": {
+        "name": "도토리 키친",
+        "explain": 0,
+        "division": 0,
+        "country": 0,
+        "call": "064-782-1021",
+        "locate": "제주 제주시 북성로 59 1층",
+        "day_break": "X",
+        "time": "11:00 - 17:00",
+        "menu": "청귤소바",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 13,
+    "fields": {
+        "name": "듀크서프비스트로",
+        "explain": 0,
+        "division": 0,
+        "country": 3,
+        "call": "0507-1414-1251",
+        "locate": "제주 서귀포시 천제연로188번길 6-6",
+        "day_break": "일요일 휴무",
+        "time": "17:00 - 1:00",
+        "menu": "타코",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 14,
+    "fields": {
+        "name": "러빙헛",
+        "explain": 1,
+        "division": 0,
+        "country": 5,
+        "call": "0507-1351-9006",
+        "locate": "서귀포시 남원읍 태흥리 1752-2",
+        "day_break": "일요일 휴무",
+        "time": "11:00-19:00",
+        "menu": "샐러드",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 15,
+    "fields": {
+        "name": "루루 비건",
+        "explain": 1,
+        "division": 1,
+        "country": null,
+        "call": "0507-1368-6628",
+        "locate": "제주 제주시 연북로 28 2층",
+        "day_break": "월요일 휴무",
+        "time": "10:00 - 17:00/토요일 10:00 - 16:00",
+        "menu": "비건쿠키",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 16,
+    "fields": {
+        "name": "르에스까르고",
+        "explain": 0,
+        "division": 2,
+        "country": null,
+        "call": "064-748-0095",
+        "locate": "제주 제주시 월랑로2길 29",
+        "day_break": "일요일 휴무",
+        "time": "13:00 - 20:00",
+        "menu": "감자빵",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 17,
+    "fields": {
+        "name": "모녀의 부엌",
+        "explain": 0,
+        "division": 0,
+        "country": 0,
+        "call": "064-733-0011",
+        "locate": "제주 서귀포시 516로 472",
+        "day_break": "일요일 휴무",
+        "time": "11:00 - 21:00",
+        "menu": "정식",
+        "etc": "예약필수"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 18,
+    "fields": {
+        "name": "무조리실",
+        "explain": 0,
+        "division": 0,
+        "country": 1,
+        "call": "064-904-1999",
+        "locate": "제주 제주시 관덕로6길 14",
+        "day_break": "X",
+        "time": "11:00 - 17:00 ",
+        "menu": "돈가스",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 19,
+    "fields": {
+        "name": "바그다드",
+        "explain": 0,
+        "division": 0,
+        "country": 2,
+        "call": "064-757-8182 ",
+        "locate": "제주시 이도2동 1188-16",
+        "day_break": "X",
+        "time": "11:00 - 23:00 /일요일 11:00 - 22:00 ",
+        "menu": "시금치카레",
+        "etc": "BreakTime : 15:30-17:30"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 20,
+    "fields": {
+        "name": "밥이 보약",
+        "explain": 0,
+        "division": 0,
+        "country": 0,
+        "call": "064-744-7782",
+        "locate": "제주 제주시 도령로 11",
+        "day_break": "일요일 휴무",
+        "time": "12:00-20:00",
+        "menu": "산채비빔밥",
+        "etc": "BreakTime : 15:00-17:00"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 21,
+    "fields": {
+        "name": "밥짓는 시간",
+        "explain": 0,
+        "division": 0,
+        "country": 0,
+        "call": "010-4144-9760",
+        "locate": "제주 제주시 구좌읍 평대5길 25",
+        "day_break": "월요일 휴무",
+        "time": "12:00 - 19:00 ",
+        "menu": "당면냉채",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 22,
+    "fields": {
+        "name": "뱅인타코",
+        "explain": 0,
+        "division": 0,
+        "country": 3,
+        "call": "064-794-7949",
+        "locate": "제주 서귀포시 대정읍 에듀시티로 74 라온프라이빗에듀 상가동 101호",
+        "day_break": "월요일",
+        "time": "월-목: 11:00 - 22:00 / 주말 11:00 - 23:00 금,토",
+        "menu": "타코",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 23,
+    "fields": {
+        "name": "보틀앤볼",
+        "explain": 0,
+        "division": 0,
+        "country": 5,
+        "call": "010-9223-7747",
+        "locate": "제주 서귀포시 일주동로 8712-2",
+        "day_break": "일요일 휴무",
+        "time": "11:00-20:00",
+        "menu": "샐러드볼",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 24,
+    "fields": {
+        "name": "블랑제리",
+        "explain": 0,
+        "division": 2,
+        "country": null,
+        "call": "064-767-0913",
+        "locate": "제주 서귀포시 동홍중앙로52번길 2",
+        "day_break": "일요일 휴무",
+        "time": "10:00 - 21:00",
+        "menu": "비건빵",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 25,
+    "fields": {
+        "name": "비스트로더반",
+        "explain": 0,
+        "division": 1,
+        "country": null,
+        "call": "064-722-0429",
+        "locate": "제주 제주시 관덕로4길 6",
+        "day_break": "화요일",
+        "time": "11:00-19:00",
+        "menu": "ABC 주스, 가스파초 애호박 국수",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 26,
+    "fields": {
+        "name": "비오는날의숲",
+        "explain": 1,
+        "division": 0,
+        "country": 5,
+        "call": "0507-1323-9226",
+        "locate": "제주특별자치도 제주시 조천읍 신촌북3길 1",
+        "day_break": "화요일",
+        "time": "11:00-15:00",
+        "menu": "스튜",
+        "etc": "라스트오더는 14:00, 가급적 예약권장"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 27,
+    "fields": {
+        "name": "삼공오공식당",
+        "explain": 0,
+        "division": 0,
+        "country": 0,
+        "call": "064-762-3050",
+        "locate": "제주 서귀포시 서문로 5-2",
+        "day_break": "X",
+        "time": " 06:00 - 20:30",
+        "menu": "곤드레솥밥",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 28,
+    "fields": {
+        "name": "소요 0617",
+        "explain": 0,
+        "division": 0,
+        "country": 5,
+        "call": "064-764-9655",
+        "locate": "제주 서귀포시 남원읍 태위로834번길 11-6",
+        "day_break": "월요일, 화요일",
+        "time": "11:00 - 21:00 ",
+        "menu": null,
+        "etc": "BreakTime : 15:00-17:00"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 29,
+    "fields": {
+        "name": "썬샤인워크",
+        "explain": 1,
+        "division": 1,
+        "country": null,
+        "call": "0507-1421-1036",
+        "locate": "제주 서귀포시 소보리당로 40-4",
+        "day_break": "월, 목, 금요일",
+        "time": "12:00 - 17:00",
+        "menu": "채소쨈플레이트",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 30,
+    "fields": {
+        "name": "소락",
+        "explain": 1,
+        "division": 1,
+        "country": null,
+        "call": "064-755-5030",
+        "locate": "제주 제주시 남광로2길 7-17",
+        "day_break": null,
+        "time": null,
+        "menu": "눈꽃빙수",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 31,
+    "fields": {
+        "name": "숲속의 도토리",
+        "explain": 0,
+        "division": 0,
+        "country": 0,
+        "call": "0507-1366-5835",
+        "locate": "제주 제주시 도근내길 18 숲속의도토리",
+        "day_break": "월요일",
+        "time": "11:00 - 20:00 ",
+        "menu": "도토리정식",
+        "etc": "BreakTime : 15:00-17:00"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 32,
+    "fields": {
+        "name": "시스터필드",
+        "explain": 0,
+        "division": 2,
+        "country": null,
+        "call": "064-739-2225",
+        "locate": "제주 서귀포시 월드컵로 8",
+        "day_break": "X",
+        "time": "9:00 - 18:00",
+        "menu": null,
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 33,
+    "fields": {
+        "name": "아로미에 식당",
+        "explain": 1,
+        "division": 0,
+        "country": 0,
+        "call": "0507-1335-4612",
+        "locate": "제주 제주시 구좌읍 세평항로 46-12 1층",
+        "day_break": "목요일",
+        "time": "16:00 - 22:00",
+        "menu": "톳 해초밥",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 34,
+    "fields": {
+        "name": "아살람",
+        "explain": 0,
+        "division": 0,
+        "country": 4,
+        "call": "0504-3139-6652",
+        "locate": "제주 제주시 중앙로2길 7 1층",
+        "day_break": "X",
+        "time": "12:00 - 22:00",
+        "menu": "훔무스와 호브스",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 35,
+    "fields": {
+        "name": "앤드 유 카페",
+        "explain": 1,
+        "division": 1,
+        "country": null,
+        "call": "010-3250-9564 ",
+        "locate": "제주도 한림읍 옹포리",
+        "day_break": "화,수",
+        "time": "11:00 - 19:00",
+        "menu": "콩버거",
+        "etc": "BreakTime : 15:00-16:00"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 36,
+    "fields": {
+        "name": "ABC 에이팩토리21",
+        "explain": 0,
+        "division": 1,
+        "country": null,
+        "call": "0507-1344-8223",
+        "locate": "제주 제주시 탑동로 11",
+        "day_break": "매월 마지막 수요일",
+        "time": "8:30 - 19:00",
+        "menu": "빵 종류",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 37,
+    "fields": {
+        "name": "연우네",
+        "explain": 0,
+        "division": 0,
+        "country": 0,
+        "call": "064-712-5646",
+        "locate": "제주 제주시 은수길 110",
+        "day_break": "X",
+        "time": "11:00-21:00",
+        "menu": "녹차들깨수제비",
+        "etc": "명절 휴무"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 38,
+    "fields": {
+        "name": "와르다레스토랑",
+        "explain": 0,
+        "division": 0,
+        "country": 4,
+        "call": "0507-1417-1470",
+        "locate": "제주 제주시 관덕로8길 24-1 단독",
+        "day_break": "일요일 휴무",
+        "time": "12:00 - 22:00",
+        "menu": "홈무스",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 39,
+    "fields": {
+        "name": "유루유루",
+        "explain": 0,
+        "division": 0,
+        "country": 2,
+        "call": "0507-1444-3880",
+        "locate": "제주 서귀포시 안덕면 산방로 367-1",
+        "day_break": "수요일 ",
+        "time": "10:30 - 19:00",
+        "menu": "비건카레",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 40,
+    "fields": {
+        "name": "인디언키친",
+        "explain": 0,
+        "division": 0,
+        "country": 2,
+        "call": "0507-1390-5859",
+        "locate": "제주 제주시 애월읍 애원로 191",
+        "day_break": "X",
+        "time": " 11:30 - 21:00",
+        "menu": "채소커리, 콩커리",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 41,
+    "fields": {
+        "name": "일품순두부 용담점",
+        "explain": 0,
+        "division": 0,
+        "country": 0,
+        "call": "064-805-7700",
+        "locate": "제주 제주시 용해로 85",
+        "day_break": "X",
+        "time": "07:30 - 22:00",
+        "menu": "버섯순두부",
+        "etc": "일반국물 : 말린새우 포함 => 물로 변경가능"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 42,
+    "fields": {
+        "name": "작은 부엌 ",
+        "explain": 1,
+        "division": 0,
+        "country": 0,
+        "call": "010-4699-3179",
+        "locate": "제주 제주시 조천읍 선흘동2길 1",
+        "day_break": "토,일요일",
+        "time": "11:00 - 15:00",
+        "menu": "콩까스정식,들풀비빔밥",
+        "etc": "예약제"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 43,
+    "fields": {
+        "name": "제주그대로",
+        "explain": 1,
+        "division": 1,
+        "country": null,
+        "call": "0507-1358-6569",
+        "locate": "제주 서귀포시 중앙로79번길 8 1층",
+        "day_break": "화요일",
+        "time": " 11:00 - 19:00 ",
+        "menu": "비건 스콘",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 44,
+    "fields": {
+        "name": "제주돔베막국수",
+        "explain": 0,
+        "division": 0,
+        "country": 0,
+        "call": "064-773-2147",
+        "locate": "제주 제주시 한경면 고산로 35",
+        "day_break": "X",
+        "time": "11:00 - 16:00",
+        "menu": "막국수",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 45,
+    "fields": {
+        "name": "제주 소녀",
+        "explain": 0,
+        "division": 1,
+        "country": null,
+        "call": "0507-1494-7335",
+        "locate": "제주 제주시 구좌읍 비자숲길 21",
+        "day_break": "일,월,화",
+        "time": "10:00 - 16:00",
+        "menu": null,
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 46,
+    "fields": {
+        "name": "젠하이드 어웨이",
+        "explain": 0,
+        "division": 0,
+        "country": 5,
+        "call": "064-794-0133",
+        "locate": "제주 서귀포시 안덕면 사계남로 186-8",
+        "day_break": "X",
+        "time": "11:00 - 21:00",
+        "menu": null,
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 47,
+    "fields": {
+        "name": "칠분의오",
+        "explain": 0,
+        "division": 0,
+        "country": 5,
+        "call": "0507-1324-2281",
+        "locate": "제주 제주시 구좌읍 종달로1길 123",
+        "day_break": "일,월",
+        "time": "10:00 - 16:00",
+        "menu": "채식버거세트",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 48,
+    "fields": {
+        "name": "카페 901",
+        "explain": 1,
+        "division": 1,
+        "country": null,
+        "call": "010-9469-9022",
+        "locate": "제주 제주시 1100로 2977-10",
+        "day_break": "월,화",
+        "time": "수,목,금: 9:00 - 16:00/토,일 : 9:00 - 18:00",
+        "menu": "비건브런치",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 49,
+    "fields": {
+        "name": "카페 빠네띠에",
+        "explain": 0,
+        "division": 1,
+        "country": null,
+        "call": "064-723-3337",
+        "locate": "제주 제주시 신설로9길 25 노브힐 하우스",
+        "day_break": "일",
+        "time": "10:00 - 21:00",
+        "menu": "빵 종류",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 50,
+    "fields": {
+        "name": "캑터스타코스",
+        "explain": 0,
+        "division": 0,
+        "country": 3,
+        "call": "0507-1336-3490",
+        "locate": "제주 서귀포시 천제연로 266 캑터스타코스",
+        "day_break": "수요일 ",
+        "time": "11:00 - 20:00",
+        "menu": "비건부리또",
+        "etc": "BreakTime : 15:00-17:00"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 51,
+    "fields": {
+        "name": "코시롱",
+        "explain": 0,
+        "division": 0,
+        "country": 0,
+        "call": "064-742-2253",
+        "locate": "제주 제주시 노형1길 12-2",
+        "day_break": "일요일 휴무",
+        "time": "10:00-21:00",
+        "menu": "연잎정식",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 52,
+    "fields": {
+        "name": "월정타코마씸",
+        "explain": 0,
+        "division": 0,
+        "country": 3,
+        "call": "064-782-0726",
+        "locate": "제주 제주시 구좌읍 해맞이해안로 474",
+        "day_break": "X",
+        "time": "11:00 - 20:00",
+        "menu": "채식따코",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 53,
+    "fields": {
+        "name": "탑해장국본점",
+        "explain": 0,
+        "division": 0,
+        "country": 0,
+        "call": "064-742-3197",
+        "locate": "제주 제주시 월랑로10길 17 탑해장국본점 탑정육0",
+        "day_break": "화요일",
+        "time": "08:30 - 17:00",
+        "menu": "해장국",
+        "etc": "야채육수"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 54,
+    "fields": {
+        "name": "템플스테이푸드",
+        "explain": 1,
+        "division": 0,
+        "country": 0,
+        "call": "0507-1402-4959",
+        "locate": "제주 서귀포시 안덕면 난드르로 43",
+        "day_break": "X",
+        "time": "11:00 - 20:00",
+        "menu": "연잎밥정식&다도",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 55,
+    "fields": {
+        "name": "톰톰카레",
+        "explain": 0,
+        "division": 0,
+        "country": 2,
+        "call": "070-7799-1535",
+        "locate": "제주 제주시 구좌읍 해맞이해안로 1112",
+        "day_break": "월요일",
+        "time": "11:00 - 20:00",
+        "menu": "야채카레",
+        "etc": " BreakTime : 15:00-17:00/이효리 단골집으로 유명한 채식 카레 맛집"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 56,
+    "fields": {
+        "name": "푸른솔맑은향",
+        "explain": 1,
+        "division": 0,
+        "country": 0,
+        "call": "064-749-9395",
+        "locate": "제주시 고사마루길 109",
+        "day_break": "화요일",
+        "time": "11:00 - 18:30",
+        "menu": "연잎밥",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 57,
+    "fields": {
+        "name": "프리제과",
+        "explain": 1,
+        "division": 2,
+        "country": null,
+        "call": "0507-1467-3368",
+        "locate": "제주특별자치도 제주시 전농로 28 1층",
+        "day_break": "화,수,목",
+        "time": "11:00 - 18:00",
+        "menu": "두유스콘, 쑥스콘",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 58,
+    "fields": {
+        "name": "협재수우동 ",
+        "explain": 0,
+        "division": 0,
+        "country": 1,
+        "call": "064-796-5830",
+        "locate": "제주 제주시 한림읍 협재1길 11",
+        "day_break": "화요일",
+        "time": "10:30 - 18:00",
+        "menu": "비빔냉우동, 고구마 단호박 튀김 요청",
+        "etc": "계란제외 요청"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 59,
+    "fields": {
+        "name": "탑해장국삼화점",
+        "explain": 0,
+        "division": 0,
+        "country": 0,
+        "call": "064-755-9394",
+        "locate": "제주 제주시 화삼북로4길 4-2",
+        "day_break": "X",
+        "time": "07:00 - 21:00",
+        "menu": "해장국",
+        "etc": "야채육수"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 60,
+    "fields": {
+        "name": "깃든",
+        "explain": 0,
+        "division": 1,
+        "country": null,
+        "call": "010-5419-8789",
+        "locate": "제주 제주시 구좌읍 해맞이해안로 990-2",
+        "day_break": "X",
+        "time": "09:30 - 20:30",
+        "menu": "당근주스",
+        "etc": "간단식사 가능 "
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 61,
+    "fields": {
+        "name": "유루유루",
+        "explain": 0,
+        "division": 1,
+        "country": null,
+        "call": "0507-1444-3880",
+        "locate": "제주 서귀포시 안덕면 산방로 367-1",
+        "day_break": "수요일 ",
+        "time": "10:30 - 19:00",
+        "menu": "오랑우탄커피",
+        "etc": "간단식사 가능 "
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 62,
+    "fields": {
+        "name": "러빙헛",
+        "explain": 1,
+        "division": 0,
+        "country": 0,
+        "call": " 010-4696-9006",
+        "locate": "제주특별자치도 서귀포시 남원읍 일주동로 7036",
+        "day_break": "일,월",
+        "time": "11:30 - 19:00",
+        "menu": "채식물회",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 63,
+    "fields": {
+        "name": "신의한모",
+        "explain": 0,
+        "division": 0,
+        "country": 0,
+        "call": "064-712-9642",
+        "locate": "제주 제주시 애월읍 하귀14길 11-1",
+        "day_break": "월",
+        "time": "11:30 - 22:00",
+        "menu": "두부요리전문",
+        "etc": "BreakTime : 15:00-17:30"
+    }
+},
+{
+    "model": "greentable.place",
+    "pk": 64,
+    "fields": {
+        "name": "탐라반상",
+        "explain": 1,
+        "division": 0,
+        "country": 0,
+        "call": "0507-1337-2070",
+        "locate": "제주 제주시 한경면 녹차분재로 462 1층",
+        "day_break": "X",
+        "time": "11:00 - 15:00 ",
+        "menu": "내가 차리는 식탁(대인/소인)",
+        "etc": null
+    }
+},
+{
+    "model": "greentable.question",
+    "pk": 1,
+    "fields": {
+        "number": 1,
+        "contets": "어떤 장소를 원하시나요?"
+    }
+},
+{
+    "model": "greentable.question",
+    "pk": 2,
+    "fields": {
+        "number": 2,
+        "contets": "지금 당장! 이 나라의 음식을 먹겠다면 어느 곳을 선택하시겠습니까"
+    }
+},
+{
+    "model": "greentable.question",
+    "pk": 3,
+    "fields": {
+        "number": 3,
+        "contets": "채식을 전문으로 하는 곳을 찾아볼까요?"
+    }
+},
+{
+    "model": "greentable.question",
+    "pk": 4,
+    "fields": {
+        "number": 4,
+        "contets": "오늘은 멀리 떠나고 싶은 날인가요?"
+    }
+},
+{
+    "model": "greentable.choice",
+    "pk": 1,
+    "fields": {
+        "contents": "한 끼 든든히 채울 수 있는 장소.",
+        "question": 1,
+        "type": 0
+    }
+},
+{
+    "model": "greentable.choice",
+    "pk": 2,
+    "fields": {
+        "contents": "음료와 차를 즐길 수 있는 장소",
+        "question": 1,
+        "type": 1
+    }
+},
+{
+    "model": "greentable.choice",
+    "pk": 3,
+    "fields": {
+        "contents": "빵 냄새 가득한 장소",
+        "question": 1,
+        "type": 2
+    }
+},
+{
+    "model": "greentable.choice",
+    "pk": 4,
+    "fields": {
+        "contents": "한국",
+        "question": 2,
+        "type": 0
+    }
+},
+{
+    "model": "greentable.choice",
+    "pk": 5,
+    "fields": {
+        "contents": "일본, 중국",
+        "question": 2,
+        "type": 1
+    }
+},
+{
+    "model": "greentable.choice",
+    "pk": 6,
+    "fields": {
+        "contents": "인도",
+        "question": 2,
+        "type": 2
+    }
+},
+{
+    "model": "greentable.choice",
+    "pk": 7,
+    "fields": {
+        "contents": "남미",
+        "question": 2,
+        "type": 3
+    }
+},
+{
+    "model": "greentable.choice",
+    "pk": 8,
+    "fields": {
+        "contents": "중동",
+        "question": 2,
+        "type": 4
+    }
+},
+{
+    "model": "greentable.choice",
+    "pk": 9,
+    "fields": {
+        "contents": "서양",
+        "question": 2,
+        "type": 5
+    }
+},
+{
+    "model": "greentable.choice",
+    "pk": 10,
+    "fields": {
+        "contents": "상관없다",
+        "question": 2,
+        "type": 6
+    }
+}
+]
