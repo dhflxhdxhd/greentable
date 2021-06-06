@@ -57,3 +57,6 @@ def result(request):
         'etc' : final_get.etc
     }
     return  render(request,'result.html',context=context)
+
+def map(request):
+    return render(request, 'map.html')

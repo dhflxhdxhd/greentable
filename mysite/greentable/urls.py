@@ -6,4 +6,5 @@ urlpatterns = [
     path('', views.index),
     path('form/', views.form),
     path('result/', views.result),
+    path('map/',views.map),
 ]

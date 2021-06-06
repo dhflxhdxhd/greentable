@@ -3,8 +3,8 @@ const qnaList = [
       q: '1. 어떤 장소를 원하시나요?',
       a: [
         { answer: 'a. 한 끼 든든히 채울 수 있는 장소.', type: [0] },
-        { answer: 'b. 간단하게 음료를 즐길 수 있는 장소.', type: [1] },
-        { answer: 'c. 빵을 전문으로 하는 장소', type: [2] },
+        { answer: 'b. 음료와 차를 즐길 수 있는 장소', type: [1] },
+        { answer: 'c. 빵 냄새 가득한 장소', type: [2] },
       ]
     },
     {
