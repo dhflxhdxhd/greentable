@@ -3,6 +3,7 @@ from .models import Place,Question,Choice
 # from django.http import HttpResponse
 from random import randint
 
+
 def index(request):
     places = Place.objects.all()
 
@@ -59,4 +60,18 @@ def result(request):
     return  render(request,'result.html',context=context)
 
 def map(request):
-    return render(request, 'map.html')
+    places = Place.objects.all()
+    # one = Place.objects.get(id=1)
+    # print(one.name)
+    context = {
+        'places' : places,
+    }
+    return render(request,'map.html',context=context)
+
+def test(request):
+    places = Place.objects.all()
+
+    context = {
+        'places' : places,
+    }
+    return render(request,'test.html',context=context)

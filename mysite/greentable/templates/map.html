@@ -1,15 +1,72 @@
-<!doctype html>
-{% load static %}
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{% static 'css/default.css' %}" type="text/css">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <title>주소로 장소 표시하기</title>
+
 </head>
 <body>
-    <p>지도 페이지</p>
+
+<div id="map" style="width:80%;height:700px;"></div>
+<div class="map_info"></div>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a5bc526faee6cfe7ee27ad29244b76d8&libraries=services"></script>
+<script>
+
+let map_info = document.querySelector(".map_info");
+let positions = [];
+let place_info = {};
+{% for place in places %}
+    locate = `{{place.locate}}`;
+    name = `{{place.name}}`;
+    menu = `{{place.menu}}`;
+    place_info = { "name" : name, "locate" : locate, "menu":menu};
+    positions.push(place_info);
+{% endfor %}
+console.log(positions);
+
+var mapContainer = document.getElementById('map'), // 지도를 표시할 div
+    mapOption = {
+        center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+        level: 9 // 지도의 확대 레벨
+    };
+
+// 지도를 생성합니다
+var map = new kakao.maps.Map(mapContainer, mapOption);
+
+// 주소-좌표 변환 객체를 생성합니다
+var geocoder = new kakao.maps.services.Geocoder();
+
+
+for(let i=0; i<positions.length; i++) {
+// 주소로 좌표를 검색합니다
+geocoder.addressSearch(positions[i].locate, function(result, status) {
+
+        // 정상적으로 검색이 완료됐으면
+         if (status === kakao.maps.services.Status.OK) {
+
+            var coords = new kakao.maps.LatLng(result[0].y, result[0].x);
+            console.log(coords);
+
+            // 결과값으로 받은 위치를 마커로 표시합니다
+            var marker = new kakao.maps.Marker({
+               map: map,
+               position: coords,
+            });
+
+
+        // 마커에 마우스오버 이벤트를 등록합니다
+        kakao.maps.event.addListener(marker, 'click', function() {
+          // 마커에 마우스오버 이벤트가 발생하면 인포윈도우를 마커위에 표시합니다
+            console.log(positions[i].name);
+            map_info.innerText = positions[i].name + positions[i].locate + positions[i].menu;
+        });
+         }
+    });
+}
+
+
+</script>
 </body>
 </html>
+
+
