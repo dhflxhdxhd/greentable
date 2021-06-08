@@ -7,5 +7,4 @@ urlpatterns = [
     path('form/', views.form),
     path('result/', views.result),
     path('map/',views.map),
-    path('test/',views.test),
 ]

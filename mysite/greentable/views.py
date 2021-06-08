@@ -68,10 +68,3 @@ def map(request):
     }
     return render(request,'map.html',context=context)
 
-def test(request):
-    places = Place.objects.all()
-
-    context = {
-        'places' : places,
-    }
-    return render(request,'test.html',context=context)
