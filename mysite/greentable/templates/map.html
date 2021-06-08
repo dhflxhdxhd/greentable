@@ -1,14 +1,17 @@
+
 <!DOCTYPE html>
+{% load static %}
 <html>
 <head>
     <meta charset="utf-8">
     <title>주소로 장소 표시하기</title>
-
+    <link rel="stylesheet" href="{% static 'css/default.css' %}" type="text/css">
 </head>
 <body>
 
 <div id="map" style="width:80%;height:700px;"></div>
 <div class="map_info"></div>
+
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a5bc526faee6cfe7ee27ad29244b76d8&libraries=services"></script>
 <script>
 
