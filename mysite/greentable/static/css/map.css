@@ -1,0 +1,44 @@
+
+#a_wrapper {
+    font-family: 'GmarketSansLight';
+    font-size: 18px;
+    height: 3em;
+    text-align: center;
+    padding-top: 50px;
+}
+.a_map{
+    padding-right: 50px;
+}
+
+.a_info {
+    padding-left: 50px;
+}
+
+
+.maptitle{
+    font-family: 'GmarketSansMedium';
+    color : #707070;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.maptitle p{
+    margin: 0;
+}
+
+
+.css-map{
+width:70%;
+height:30em;
+margin: 0 auto;
+margin-top : 1em;
+}
+
+.css-mapInfo{
+    font-family: 'GmarketSansLight';
+    margin: 1em;
+    text-align: center;
+}
+
+

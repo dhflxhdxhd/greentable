@@ -6,11 +6,21 @@
     <meta charset="utf-8">
     <title>주소로 장소 표시하기</title>
     <link rel="stylesheet" href="{% static 'css/default.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/map.css' %}" type="text/css">
 </head>
 <body>
+<div id="a_wrapper">
+    <a href="../map/" class="a_map">제주 채식 지도</a>
+    <a href="../info/" class="a_info">채식 정보 모음</a>
+</div>
+<div class="maptitle">
+    <p>제주 채식 지도</p>
+    <p>Vegetarian Map in Jeju</p>
+</div>
 
-<div id="map" style="width:80%;height:700px;"></div>
-<div class="map_info"></div>
+<div id="map" class="css-map" ></div>
+<div class="map_info css-mapInfo"></div>
+
 
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a5bc526faee6cfe7ee27ad29244b76d8&libraries=services"></script>
 <script>
@@ -35,10 +45,7 @@ var mapContainer = document.getElementById('map'), // 지도를 표시할 div
 
 // 지도를 생성합니다
 var map = new kakao.maps.Map(mapContainer, mapOption);
-
-// 주소-좌표 변환 객체를 생성합니다
 var geocoder = new kakao.maps.services.Geocoder();
-
 
 for(let i=0; i<positions.length; i++) {
 // 주소로 좌표를 검색합니다
@@ -46,7 +53,6 @@ geocoder.addressSearch(positions[i].locate, function(result, status) {
 
         // 정상적으로 검색이 완료됐으면
          if (status === kakao.maps.services.Status.OK) {
-
             var coords = new kakao.maps.LatLng(result[0].y, result[0].x);
             console.log(coords);
 
@@ -55,13 +61,11 @@ geocoder.addressSearch(positions[i].locate, function(result, status) {
                map: map,
                position: coords,
             });
-
-
         // 마커에 마우스오버 이벤트를 등록합니다
         kakao.maps.event.addListener(marker, 'click', function() {
           // 마커에 마우스오버 이벤트가 발생하면 인포윈도우를 마커위에 표시합니다
             console.log(positions[i].name);
-            map_info.innerText = positions[i].name + positions[i].locate + positions[i].menu;
+            map_info.innerText = "'"+ positions[i].name +  "'↝" + " 위치는 " + positions[i].locate + "이며 대표 메뉴는 " +positions[i].menu +"입니다 :)";
         });
          }
     });
@@ -69,6 +73,7 @@ geocoder.addressSearch(positions[i].locate, function(result, status) {
 
 
 </script>
+
 </body>
 </html>
 

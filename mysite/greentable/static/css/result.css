@@ -1,0 +1,27 @@
+.css-map{
+    width: 70%;
+    height:350px;
+    margin: 0 auto;
+}
+
+.result_title{
+    font-family: 'GmarketSansMedium';
+    color : #707070;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.result-explain .explain-main p{
+    font-size: 20px;
+    color: #F6B352;
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+}
+
+.explain-extra p {
+    text-align: center;
+    font-family: 'GmarketSansLight';
+}
+

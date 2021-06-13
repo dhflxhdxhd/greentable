@@ -68,3 +68,6 @@ def map(request):
     }
     return render(request,'map.html',context=context)
 
+def information(request):
+
+    return render(request, 'information.html')
