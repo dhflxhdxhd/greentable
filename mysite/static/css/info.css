@@ -1,0 +1,11 @@
+.list-group {
+    width : 70%;
+    margin : 0 auto;
+    padding-top :  8% ;
+}
+
+.css-Header {
+    background-color: #28a745;
+    color : white;
+    height : 50px;
+}
