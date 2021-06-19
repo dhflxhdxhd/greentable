@@ -38,7 +38,16 @@ def result(request):
                                        explain=ques[2])
     # print(final_place)
     # print("총 개수 : " + str(final_place.count()))  #final_place.cout() -> filter된 값의 총 개수
-    final_placenum = randint(0,final_place.count())  #랜덤 번호
+
+    # 값이 존재하지 않을 경우 제외 패턴 생성.
+    # if(final_place.count() == ""):
+    #     final_placenum = 0
+    # else :
+
+    final_placenum = randint(0, final_place.count())  # 랜덤 번호
+
+
+
 
 
     final_placeID = final_place[final_placenum].id # 선택된 장소의 id값
@@ -46,6 +55,7 @@ def result(request):
     final_get = Place.objects.get(id=final_placeID)
 
     context = {
+        'finals' : final_place,
         'name' : final_place[final_placenum],
         'explain' : final_get.explain,
         'division' : final_get.division,

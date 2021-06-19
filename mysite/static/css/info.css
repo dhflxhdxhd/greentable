@@ -1,11 +1,15 @@
+
+
+
 .list-group {
     width : 70%;
     margin : 0 auto;
-    padding-top :  8% ;
+    padding-top : 5%;
 }
 
-.css-Header {
-    background-color: #28a745;
-    color : white;
-    height : 50px;
+
+
+.css-content{
+    margin-bottom: 10px;
+    margin-top: 10px;
 }

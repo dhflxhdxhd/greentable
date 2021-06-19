@@ -49,7 +49,19 @@
         <button type="button" class="list-group-item list-group-item-action css-content">젓갈없는/채식김치만들기</button>
         <button type="button" class="list-group-item list-group-item-action css-content">[비건 발자국] 롭스, 올리브영, 랄라블라 비건 간식 모음</button>
     </div>
+    <div>
+        <button type="button" class="js-start">처음으로</button>
+    </div>
 
+    <script>
+    const startbtn = document.querySelector('.js-start');
+    function MovetoStart() {
+        console.log("지도 페이지로 이동");
+        location.href="../."
+    }
+
+    startbtn.addEventListener("click", MovetoStart);
+    </script>
 <!--        <script src="/static/js/information.js"></script>-->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

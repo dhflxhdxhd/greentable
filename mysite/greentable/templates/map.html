@@ -20,8 +20,19 @@
 
 <div id="map" class="css-map" ></div>
 <div class="map_info css-mapInfo"></div>
+<div>
+    <button type="button" class="js-start">처음으로</button>
+</div>
 
+<script>
+    const startbtn = document.querySelector('.js-start');
+    function MovetoStart() {
+        console.log("지도 페이지로 이동");
+        location.href="../."
+    }
 
+    startbtn.addEventListener("click", MovetoStart);
+</script>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a5bc526faee6cfe7ee27ad29244b76d8&libraries=services"></script>
 <script>
 

@@ -11,8 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-
+    <container>
         <div class="result_title"><p>당신의 선택은?</p></div>
         <div class="result">
             <div class="result-map"></div>
@@ -29,8 +28,26 @@
                 </div>
             </div>
         </div>
-    </div>
+        <div>
+            <button type="button" class="js-mapbtn">정보.zip</button>
+        </div>
 
+
+        {% for i in finals %}
+         <p>{{i.name}}</p>
+        {% endfor %}
+
+    </container>
+
+<script>
+    const mapbtn = document.querySelector('.js-mapbtn');
+    function MovetoMap() {
+        console.log("지도 페이지로 이동");
+        location.href="../map/"
+    }
+
+    mapbtn.addEventListener("click", MovetoMap);
+</script>
 <script type="text/javascript"
                     src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a5bc526faee6cfe7ee27ad29244b76d8&libraries=services"></script>
 <script src="/static/js/result.js"></script>
